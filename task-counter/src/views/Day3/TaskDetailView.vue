@@ -7,7 +7,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useTaskStore } from '@/stores/taskStore'
+import { useTaskStore } from '@/stores/taskStore-day3'
 
 // TODO 1: Get the current route and router instances
 const route  = useRoute()

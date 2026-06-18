@@ -7,7 +7,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
-import { useTaskStore } from '@/stores/taskStore'
+import { useTaskStore } from '@/stores/taskStore-day3'
 
 const taskStore = useTaskStore()
 const route     = useRoute()

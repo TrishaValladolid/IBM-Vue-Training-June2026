@@ -1,7 +1,6 @@
 <template>
   <div class="about-view">
     <h1>About This Task App</h1>
-    <p>This page explains the app and how routing works.</p>
     <p>Use the home page to view tasks and click a task to see its detail page.</p>
   </div>
 </template>
