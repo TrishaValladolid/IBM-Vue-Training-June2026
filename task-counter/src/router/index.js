@@ -4,6 +4,7 @@ import HomeView from '@/views/Day3/HomeView.vue'
 import TaskDetailView from '@/views/Day3/TaskDetailView.vue'
 import AboutView from '@/views/Day3/AboutView.vue'
 import TaskListView from '@/views/Day4/TaskListView.vue'
+import TodoListView from '@/views/Day5/TodoListView.vue'
 
 const routes = [
   { path: '/', redirect: '/home' },
@@ -11,6 +12,8 @@ const routes = [
   { path: '/task/:id', component: TaskDetailView, meta: { requiresTask: true } },
   { path: '/about', component: AboutView },
   { path: '/dayfour', component: TaskListView },
+  { path: '/dayfive', component: TodoListView },
+
 ]
 
 const router = createRouter({
